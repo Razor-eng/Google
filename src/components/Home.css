@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100vw;
 }
 .home_header {
   display: flex;
@@ -51,11 +52,15 @@
     display: none;
   }
   .home_body {
+    width: 100%;
+    padding: 0;
     justify-content: center;
-    margin-left: 14%;
+  }
+  .home_headerRight p {
+    margin: 25px;
   }
 }
-@media only screen and (max-width: 250px) {
+@media only screen and (max-width: 350px) {
   .home_header {
     display: none;
   }
