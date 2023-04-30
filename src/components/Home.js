@@ -18,7 +18,7 @@ function Home() {
                 </div>
                 <div className="home_headerRight">
                     <IconButton>
-                        <p>Gmail</p>
+                        <p><a href="https://gmail-tau.vercel.app">Gmail</a></p>
                     </IconButton>
                     <IconButton>
                         <p>Images</p>
